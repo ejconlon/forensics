@@ -97,6 +97,6 @@ test-suite forensics-test
   build-depends:
       base >=4.12 && <5
     , forensics
-    , tasty
-    , tasty-hunit
+    , tasty ==1.4.*
+    , tasty-hunit ==0.10.*
   default-language: Haskell2010

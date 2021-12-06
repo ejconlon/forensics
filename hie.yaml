@@ -1,0 +1,7 @@
+cradle:
+  stack:
+    - path: "./src"
+      component: "forensics:lib"
+
+    - path: "./test"
+      component: "forensics:test:forensics-test"

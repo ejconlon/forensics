@@ -68,5 +68,5 @@ tests:
     - -with-rtsopts=-N
     dependencies:
     - forensics
-    - tasty
-    - tasty-hunit
+    - tasty >= 1.4 && < 1.5
+    - tasty-hunit >= 0.10 && < 0.11
