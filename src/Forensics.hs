@@ -1,6 +1,7 @@
 module Forensics where
 
 import Data.Maybe (mapMaybe)
+import Prelude hiding (log)
 import Text.Read (readMaybe)
 
 -- Warmup: Let's remember how to write some standard higher-order functions on lists.
