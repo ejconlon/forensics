@@ -1,7 +1,7 @@
 cradle:
-  stack:
-    - path: "./src"
-      component: "forensics:lib"
+  cabal:
+    - path: "src"
+      component: "lib:forensics"
 
-    - path: "./test"
+    - path: "test"
       component: "forensics:test:forensics-test"
